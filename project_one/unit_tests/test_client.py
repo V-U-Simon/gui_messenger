@@ -1,9 +1,9 @@
 import sys
 sys.path.append('../')
-from project_one.client import create_presence, process_response_ans
-from project_one.common.variables import *
+from client import create_presence, process_response_ans
+from common.variables import *
 import unittest
-from project_one.errors_user import ReqFieldMissingError, ServerError
+from errors import ReqFieldMissingError, ServerError
 
 
 # Класс с тестами
